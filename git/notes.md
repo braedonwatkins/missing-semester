@@ -117,9 +117,9 @@ references = map <String, String>
 
 ### 3.2.1. Remote Commands
 
-|     Command      | Arguments                              |     Flags      |            Explanation             |
-| :--------------: | :------------------------------------- | :------------: | :--------------------------------: |
-| `git remote add` | `<name> <url>`                         |                | Adds git remote for collaborating  |
-|    `git push`    | `<remote> <localbranc>:<remotebranch>` |                | Pushes branch in remote repository |
-|   `git clone`    | `<url> <localfolder>`                  |                |      Used to download a repo       |
-|   `git branch`   |                                        | `set upstream` |                                    |
+|     Command      | Arguments                               |     Flags      |            Explanation             |
+| :--------------: | :-------------------------------------- | :------------: | :--------------------------------: |
+| `git remote add` | `<name> <url>`                          |                | Adds git remote for collaborating  |
+|    `git push`    | `<remote> <localbranch>:<remotebranch>` |                | Pushes branch in remote repository |
+|   `git clone`    | `<url> <localfolder>`                   |                |      Used to download a repo       |
+|   `git branch`   |                                         | `set upstream` |                                    |
