@@ -1,5 +1,5 @@
-# 1. Table of Contents
-- [1. Table of Contents](#1-table-of-contents)
+# 1. Git
+- [1. Git](#1-git)
 - [2. The Deep Down](#2-the-deep-down)
   - [2.1. Graphs & Directories:](#21-graphs--directories)
   - [2.2. PsuedoCode:](#22-psuedocode)
