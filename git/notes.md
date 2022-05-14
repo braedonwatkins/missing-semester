@@ -5,14 +5,14 @@
   - [2.2. PsuedoCode:](#22-psuedocode)
   - [2.3. SHA & Hash Functions:](#23-sha--hash-functions)
 - [3. Interactive Section](#3-interactive-section)
-  - [3.1. Local Branches Example](#31-local-branches-example)
+  - [3.1. Git Branches](#31-git-branches)
     - [3.1.1. Staging vs Commit:](#311-staging-vs-commit)
     - [3.1.2. Branching Commands:](#312-branching-commands)
     - [3.1.3. Explaining `commit <SHA> (HEAD -> master)`:](#313-explaining-commit-sha-head---master)
     - [3.1.4. Note on `Fast-forward`:](#314-note-on-fast-forward)
     - [3.1.5. Note on `Merge Conflicts`:](#315-note-on-merge-conflicts)
     - [3.1.6. **Question on `Branching`:**](#316-question-on-branching)
-  - [3.2. Git Remotes Example](#32-git-remotes-example)
+  - [3.2. Git Remotes](#32-git-remotes)
     - [3.2.1. Remote Commands](#321-remote-commands)
 
 
@@ -62,7 +62,7 @@ references = map <String, String>
 
 # 3. Interactive Section
 
-## 3.1. Local Branches Example
+## 3.1. Git Branches
 
 
 ### 3.1.1. Staging vs Commit:
@@ -112,7 +112,7 @@ references = map <String, String>
 <br><br>
 
 
-## 3.2. Git Remotes Example
+## 3.2. Git Remotes
 
 
 ### 3.2.1. Remote Commands
@@ -122,4 +122,9 @@ references = map <String, String>
 | `git remote add` | `<name> <url>`                          |                | Adds git remote for collaborating  |
 |    `git push`    | `<remote> <localbranch>:<remotebranch>` |                | Pushes branch in remote repository |
 |   `git clone`    | `<url> <localfolder>`                   |                |      Used to download a repo       |
-|   `git branch`   |                                         | `set upstream` |                                    |
+|   `git branch`   |                                         | `set upstream` |      Checks & Creates brances      |
+|   `git fetch`    |                                         |                |   Update w/ repo + Show locally    |
+|   `git merge`    |                                         |                |     Move local repo to remote      |
+|    `git pull`    |                                         |                |  `git fetch` + `git merge` in one  |  
+<br><br>
+
