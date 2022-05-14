@@ -14,6 +14,14 @@
     - [3.1.6. **Question on `Branching`:**](#316-question-on-branching)
   - [3.2. Git Remotes](#32-git-remotes)
     - [3.2.1. Remote Commands](#321-remote-commands)
+- [4. Git Miscellaneous](#4-git-miscellaneous)
+    - [Git Config](#git-config)
+    - [Large Git Clone](#large-git-clone)
+    - [Git Add Lines](#git-add-lines)
+    - [Git Blame!](#git-blame)
+    - [Git Stash](#git-stash)
+    - [Git Bisect](#git-bisect)
+    - [Git Ignore](#git-ignore)
 
 
 # 2. The Deep Down  
@@ -59,6 +67,8 @@ references = map <String, String>
 
 <p>Nothing too crazy here. Just review of hash functions</p>  
 <br><br>
+
+
 
 # 3. Interactive Section
 
@@ -127,4 +137,35 @@ references = map <String, String>
 |   `git merge`    |                                         |                |     Move local repo to remote      |
 |    `git pull`    |                                         |                |  `git fetch` + `git merge` in one  |  
 <br><br>
+
+
+
+# 4. Git Miscellaneous
+
+### Git Config
+* run `git config` or `cd ~/.gitconfig`
+  * look at other git configs to find right one for you :p
+
+### Large Git Clone
+* `git clone --shalow`: gets latest snapshot not version history
+
+### Git Add Lines
+* `git add -p` (y/n): select which changes you want to keep
+  * `git diff --cached`: show which changes are selected
+  * `git diff`: change that will not pass
+  * `git checkout`: after committing to get rid of unselected change
+
+### Git Blame!
+* `git blame <file>`: find who edited a line, at which commit, and the associated commit message
+  * `git show <SHA>`: show related info to changes in commit
+
+### Git Stash
+*`git stash`: stores local changes that haven't been committed yet
+  * `git stash pop`: brings stashed changes back
+
+### Git Bisect
+* `git bisect`: searches history for 
+
+### Git Ignore
+* `.gitignore`: file that is told what filetypes, patterns, directories to ignore in version control
 
