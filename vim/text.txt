@@ -1,0 +1,102 @@
+---
+hello world!
+
+insert(i)
+
+close current window until no more windows(:q)
+  - quit all windows (:qa)
+write(:w)
+
+
+Buffers, Tabs + Windows:
+
+
+"Vim Normal Mode is like a Programming Language"
+
+Movement[Normal Mode]:
+  - Left(h)
+    - One Word (b)
+    - Beginning of Line (0)
+
+  - Down(j)
+    - Scroll Down (^d)
+    - Bottom of File(G)
+    - Lowest on Screen (L)
+
+  - Up(k)
+    - Scroll Up (^u)
+    - Top of File(gg)
+    - Highest on Screen (H)
+
+  - Right(l)
+    - One Word (w)
+    - End of Word (e)
+    - End of Line ($)
+
+  - Middle of Screen (M)
+
+  - Bounce Between Parenthesis/Brackets/etc. (%)
+
+  - Find Char Right (f<char>)
+  - Find Char Left (F<char>)
+  - To Char Right (t<char>)
+  - To Char Left (T<char>)
+
+  - Search (/<string>)
+     -  Go to Next Match (n)
+
+
+
+Editing Commands():
+  - Insert Mode(i)
+    - Leave (esc)
+  
+  - Open New Line Below in Insert (o)
+  - Open New Line Above in Insert (O)
+
+  - Delete (d <h,j,k,l>)
+  - Delete Word (dw || dW)
+  - Delete End of Word (de)
+  - Delete Line (dd)  
+
+  - Change [delete then enter insert] (c <h,j,k,l,w,W,e>)
+  - Change Line (cc)
+
+  - Delete Char (x)
+  - Replace Char (r<char>)
+
+  - Undo (u)
+  - Redo (^R)
+
+  - Copy/Yank (y<motion>)
+  - Paste (p)
+
+  - Repeat Last Editing Task Performed (.)
+
+
+Visual Modes():
+  - Visual Mode(v)
+    - Select(<motion>)
+  
+  - Visual Line Mode(V)
+    - Selects Whole Lines
+
+  - Visual Block Mode (^V)
+    - Selects Whole Blocks
+
+
+Change Case(~)
+
+
+Counts():
+  - Repeat Task (<num><comand>)
+
+Modifiers():
+  - Around(a)
+    - Same as Inside but Inclusive (<command><a><char>) 
+  
+  - Inside(i)
+    - Selects Inside Given Char (<command><i><char>)
+
+  
+---
